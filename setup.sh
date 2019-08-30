@@ -6,6 +6,7 @@ FNAMES_TO_SYMLINK=(
 ".zshrc"
 ".gitconfig"
 ".tmux.conf"
+".geometryrc"
 );
 ANTIBODY_PLUGIN_LIST_PATH="$PATH_TO_DOTFILES/.zsh_antibody_plugins.txt"
 TARGET_DIR="$HOME";

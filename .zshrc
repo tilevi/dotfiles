@@ -16,6 +16,9 @@ read < <( compinit );
 export DISABLE_AUTO_TITLE="true"
 export COMPLETION_WAITING_DOTS="true"
 
+# Geometry shell
+source ~/.geometryrc
+
 # After-hook
 if [ -f ~/.zshrc_local_after ]; then
   source ~/.zshrc_local_after

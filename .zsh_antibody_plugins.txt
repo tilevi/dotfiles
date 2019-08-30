@@ -1,9 +1,3 @@
-# Oh my zsh pre-requisites.
-SalomonSmeke/oh-my-zsh path:lib
-
-# Prompt to update bundles
-unixorn/autoupdate-antigen.zshplugin
-
 # Color/highlighting related things
 zsh-users/zsh-syntax-highlighting
 chrissicool/zsh-256color
@@ -12,13 +6,15 @@ zpm-zsh/colorize
 
 # Completion
 SalomonSmeke/oh-my-zsh path:plugins/gitfast
+zsh-users/zsh-history-substring-search
 
 # Human
 jedahan/geometry-hydrate
 MichaelAquilina/zsh-you-should-use
+zsh-users/zsh-apple-touchbar
 
 # Theme
-SalomonSmeke/oh-my-zsh path:themes/theunraveler.zsh-theme
+geometry-zsh/geometry branch:mnml
 
 # Broken - But I fixed it :)
 SalomonSmeke/oh-my-zsh path:plugins/wd
